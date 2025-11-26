@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+      <div class="main-container">
+         <div class="nav">
+          <div class="logo">
+            <a href="/">PORTOFOLIO</a>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#Education">Education</a></li>
+              <li><a href="#Project">Project</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+</header>
+
+   <section class="home">
+    <div class="home-info">
+        <h1>CREATIVE PORTOFOLIO</h1>
+        <h2>Desainer|Public Speaking|Web Developer <h2>
+        <p>Halo, saya Abdus Sami Khalid. Saya adalah seorang pelajar IT yang sedang belajar dan mengembangkan kemampuan di bidang teknologi. <br>Portofolio ini berisi kumpulan proyek, latihan, serta keterampilan yang sudah saya pelajari.  
+            <br>Melalui portofolio ini,saya ingin menunjukkan perkembangan dan kemampuan saya dalam dunia IT.</p>
+    </div>
+    <div>
+    <img src="Grey Black Bold Modern Fashion Black Friday Promotion Poster.png" alt="" class="image">
+    </div>
+   </section>
+     <section>
+    
+     <section class="about" id="about">
+    <div class="about-img">
+       <img src="Untitled design.png" alt="" class="image-2">
+    </div>
+    <div class="about-content">
+     <h2 class="">WHO <span>I AM ?</span></h2>
+            <h3>Bekasi|01|09|2008</h3>
+            <p>Saya adalah seorang pelajar IT yang senang mengeksplor teknologi dan kreativitas.
+         Saya percaya bahwa setiap ide kecil bisa menjadi karya besar jika dikerjakan dengan rasa ingin tahu dan ketekunan. 
+         Saya terus belajar coding, desain visual, dan membangun proyek kecil yang membantu saya berkembang setiap hari.</p>
+    </div>
+</section>
+  </section>
+
+  <section class="Skill">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="features-grid">
+            <!-- fitur 1 -->
+            <div class="feature-crad">
+              
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" class="feature-icon"/>
+          
+              <h3>HTML</h3>
+              <p>
+                Membangun struktur website yang bersih, rapi, dan menggunakan semantic HTML agar mudah dikembangkan.
+              </p>
+            </div>
+            <!-- fitur 2 -->
+            <div class="feature-crad">
+              <img
+              
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+            alt="icon Chip"
+                class="feature-icon" />
+          
+                
+             
+              <h3>Css</h3>
+              <p>
+               Menghasilkan tampilan website responsif menggunakan Flexbox, Grid, animasi dasar, dan gaya modern yang konsisten.
+              </p>
+            </div>
+            <!-- fitur 3 -->
+            <div class="feature-crad">
+              <img
+               
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            alt="icon baterai"
+                class="feature-icon"  />
+          "
+               
+              />
+              <h3>Javascript</h3>
+              <p>
+               Menambahkan interaksi dinamis, event handling, dan logika dasar yang membuat website lebih hidup dan fungsional.
+              </p>
+            </div>
+
+            <div class="feature-crad">
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+            alt="icon baterai"
+                class="feature-icon"  
+            />
+          
+            
+               
+             
+              <h3>figma</h3>
+              <p>
+       Mendesain antarmuka modern, membuat wireframe, layout, dan prototipe interaktif dengan fokus pada pengalaman pengguna.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+ 
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>  

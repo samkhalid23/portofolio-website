@@ -1,0 +1,290 @@
+/* reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.main-container{
+ width: 1200px;
+ margin: 0 auto;
+ 
+ 
+}
+.nav{
+   display: flex;
+  justify-content: space-between;
+   padding: 20px;
+
+}
+.nav ul{
+    display: flex;
+  list-style: none;
+   gap: 2rem;
+}
+.logo{
+  font-size: 20px;
+}
+
+.nav ul li{
+ display: flex;
+ align-items: center;
+ 
+}
+
+ .nav ul li:hover a,
+ .nav ul li.active a{
+    color: yellow ;
+ }
+
+.hero-text{
+    display: flex;
+    padding: 130px;
+    justify-content: space-between;
+    font-size: 70px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    padding: 70px ;
+    color: white;
+}
+.home-info h1{
+  font-size: 80px;
+}
+.home-info h2{
+    font-size: 20px;
+    color: yellow;
+}
+.home-info p{
+    font-size: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 300;
+      
+}
+   
+.image {
+width: 300px;
+height: 300px;
+border-radius: 50%;
+display: flex;
+margin: 20px;
+object-fit: cover;
+}
+
+.name   {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 60px;
+    color: whitesmoke;
+  
+}
+
+.image-2{
+    width: 300px;
+    height: 300px ;
+    object-fit: cover;
+    display: flex;
+    margin-left: 60px;
+    border: 8px solid white;
+}
+
+.about{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 2rem;
+color: whitesmoke;
+margin-bottom: 220px;
+padding: 150px;
+
+}
+.about h2{
+    font-size: 100px;
+    margin-left: -10px;
+}
+.about h3{
+    color: yellow;
+    font-size: 20px;
+    font-weight: 100;
+}
+p{
+  font-size: small;
+  margin-bottom: 10px ;
+}
+
+.Skill {
+  color: whitesmoke;
+  padding: 80px 0;
+  text-align: center;
+  border-radius: 20px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: -220px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: yellow;
+}
+
+.features-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.feature-crad {
+  padding: 10px;
+  border-radius: 20px;
+  flex: -1;
+  transition: transform 0.3s ease;
+  border: 1px solid white;
+}
+
+.feature-crad:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.feature-crad h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.feature-crad p {
+  font-size: 16px;
+  color: #6e6e73;
+}
+
+#Education {
+ padding: 100px ;
+ 
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.education {
+  display: flex;
+  gap: 1rem;
+}
+
+.education .line {
+  padding: 1px;
+}
+
+.education .line div {
+  width: 2px;
+  height: 0%;
+
+}
+
+.education-info p {
+  margin: 10px;
+}
+
+.education-years {
+  margin-bottom: 3rem;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1.5rem;
+}
+
+.skills-right ul {
+  line-height: 2rem;
+  padding: 0 1rem;
+}
+
+#project {
+    padding: 50px 20px;
+}
+
+
+.project-form {
+  color: whitesmoke;
+  padding: 80px 0;
+  text-align: center;
+  border-radius: 20px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: -220px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+.features-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.feature-crad {
+  padding: 10px;
+  border-radius: 20px;
+  flex: -1;
+  transition: transform 0.3s ease;
+  border: 1px solid yellow;
+  margin-left: 50px;
+}
+
+.feature-crad:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+.contact-form{
+  padding: 200px;
+  margin-left: -50px;
+}
+
+.contact-form h2{
+  font-size: 90px;
+}
+.contact-form h3{
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+
+footer {
+  padding: 4rem 0;
+ 
+  text-align: center;
+}
+
+
+
+
+
+
+
