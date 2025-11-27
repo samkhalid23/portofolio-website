@@ -263,21 +263,28 @@ p{
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }
 .contact-form{
-  padding: 200px;
+  padding: 250px;
   margin-left: -50px;
+  
 }
 
 .contact-form h2{
-  font-size: 90px;
+  font-size: 100px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
 }
 .contact-form h3{
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 30px;
+  margin-left: 40px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
   
 }
 
 footer {
-  padding: 4rem 0;
+  padding: 4rem ;
  
   text-align: center;
 }
